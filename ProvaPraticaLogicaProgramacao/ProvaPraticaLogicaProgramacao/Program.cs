@@ -115,6 +115,22 @@ namespace ProvaPraticaLogicaProgramacao
             //        Console.WriteLine("Acesso Permitido");
             //} while (senha != 2002);
 
+            // EXERCICIO 3.2
+		    int n = 0, valor, dentro = 0, fora = 0;
+
+		    n = int.Parse(Console.ReadLine());
+		    for (int i = 0; i < n; i++)
+		    {
+		        valor = int.Parse(Console.ReadLine());
+		        if (valor >= 10 && valor <= 20)
+		            dentro++;
+		        else
+		            fora++;
+		    }
+
+            Console.WriteLine($"{dentro} in");
+            Console.WriteLine($"{fora} out");
+
 
             Console.Read();
 		}
