@@ -80,30 +80,41 @@ namespace ProvaPraticaLogicaProgramacao
             //      Console.Write($"Total: R$ {total}");
 
             // EXERCICIO 2.2
-            double a, b, c, delta, x1, x2;
-            Console.Write("Valor de A: ");
-		    a = double.Parse(Console.ReadLine());
-            Console.Write("Valor de B: ");
-		    b = double.Parse(Console.ReadLine());
-            Console.Write("Valor de C: ");
-		    c = double.Parse(Console.ReadLine());
+            //      double a, b, c, delta, x1, x2;
+            //      Console.Write("Valor de A: ");
+            //a = double.Parse(Console.ReadLine());
+            //      Console.Write("Valor de B: ");
+            //b = double.Parse(Console.ReadLine());
+            //      Console.Write("Valor de C: ");
+            //c = double.Parse(Console.ReadLine());
 
-            if (a == 0)
-                Console.Write("Impossivel calcular");
-            else
-            {
-                delta = (b*b) - (4*a*c);
-                if (delta < 0)
-                    Console.Write("Impossivel calcular");
-                else
-                {
-                    x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-                    x2 = (-b - Math.Sqrt(delta)) / (2 * a);
-                    Console.WriteLine($"X1 = {x1}");
-                    Console.WriteLine($"X2 = {x2}");
-                }
-            }
-            
+            //      if (a == 0)
+            //          Console.Write("Impossivel calcular");
+            //      else
+            //      {
+            //          delta = (b*b) - (4*a*c);
+            //          if (delta < 0)
+            //              Console.Write("Impossivel calcular");
+            //          else
+            //          {
+            //              x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            //              x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            //              Console.WriteLine($"X1 = {x1}");
+            //              Console.WriteLine($"X2 = {x2}");
+            //          }
+            //      }
+
+            // EXERCICIO 3.1
+            //int senha = 0;
+            //do
+            //{
+            //    senha = int.Parse(Console.ReadLine());
+            //    if (senha != 2002)
+            //        Console.WriteLine("Senha invalida");
+            //    else
+            //        Console.WriteLine("Acesso Permitido");
+            //} while (senha != 2002);
+
 
             Console.Read();
 		}
