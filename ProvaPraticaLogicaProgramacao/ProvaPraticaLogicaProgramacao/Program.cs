@@ -10,7 +10,7 @@ namespace ProvaPraticaLogicaProgramacao
 	{
 		static void Main(string[] args)
 		{
-			// EXERCICIO 1
+			// EXERCICIO 1.1
 			//string codigo1;
 			//int numero1;
 			//decimal valor1;
@@ -37,16 +37,47 @@ namespace ProvaPraticaLogicaProgramacao
 
 			//Console.WriteLine($"VALOR A PAGAR: R$ {valorPagar}");
 
-			// EXERCICIO 2
-			decimal raio;
-			decimal area;
-			decimal pi = 3.14159M;
+			// EXERCICIO 1.2
+			//decimal raio;
+			//decimal area;
+			//decimal pi = 3.14159M;
 
-			Console.Write("Raio: ");
-			raio = decimal.Parse(Console.ReadLine());
+			//Console.Write("Raio: ");
+			//raio = decimal.Parse(Console.ReadLine());
 
-			area = pi * (raio * raio);
-			Console.Write($"A={area.ToString("N4")}");
+			//area = pi * (raio * raio);
+			//Console.Write($"A={area.ToString("N4")}");
+
+            // EXERCICIO 2.1
+		    int codigo;
+		    int qtd;
+		    decimal total = 0;
+
+            Console.Write("Codigo do produto: ");
+		    codigo = int.Parse(Console.ReadLine());
+            Console.Write("Quantidade deste item: ");
+		    qtd = int.Parse(Console.ReadLine());
+
+		    switch (codigo)
+		    {
+                case 1:
+		            total = qtd * 4.0M;
+                    break;
+                case 2:
+		            total = qtd*4.50M;
+                    break;
+                case 3:
+		            total = qtd*5.0M;
+                    break;
+                case 4:
+		            total = qtd*2.0M;
+                    break;
+                case 5:
+		            total = qtd*1.50M;
+                    break;
+		    }
+
+            Console.Write($"Total: R$ {total}");
 
 			Console.Read();
 		}
