@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "Ope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoImplicitaCasting", "ConversaoImplicitaCasting\ConversaoImplicitaCasting.csproj", "{48B076ED-2216-4385-BAE2-3B2EA6A462D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{48B076ED-2216-4385-BAE2-3B2EA6A462D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B076ED-2216-4385-BAE2-3B2EA6A462D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B076ED-2216-4385-BAE2-3B2EA6A462D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
