@@ -7,7 +7,7 @@ namespace OperadoresLogicos {
 			int n1 = 3 + 4 * 2;
 			int n2 = (3 + 4) * 2;
 			int n3 = 17 % 3;
-			double n4 = (double) 10 / 8;
+			double n4 = (double)10 / 8;
 			double n4b = 10.0 / 8;
 
 			double a = 1.0, b = -3.0, c = -4.0;
