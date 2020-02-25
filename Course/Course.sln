@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "Course\Course.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaidaDeDados", "SaidaDeDados\SaidaDeDados.csproj", "{B1960D2D-2447-424C-9E30-1E9F5D184B5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{620ADD57-0D25-47FD-B890-4A6F61939F1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAritmeticos", "OperadoresAritmeticos\OperadoresAritmeticos.csproj", "{620ADD57-0D25-47FD-B890-4A6F61939F1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{B5141EFC-338C-447D-B627-DADEA1905CB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{B5141EFC-338C-447D-B627-DADEA1905CB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoImplicitaCasting", "ConversaoImplicitaCasting\ConversaoImplicitaCasting.csproj", "{48B076ED-2216-4385-BAE2-3B2EA6A462D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoImplicitaCasting", "ConversaoImplicitaCasting\ConversaoImplicitaCasting.csproj", "{48B076ED-2216-4385-BAE2-3B2EA6A462D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresComparativos", "OperadoresComparativos\OperadoresComparativos.csproj", "{FFB76E24-469E-4DDE-B0EA-9FCFD90B89C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29F37DE1-FF11-45F0-A0FF-DFFF1BCDD788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB76E24-469E-4DDE-B0EA-9FCFD90B89C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB76E24-469E-4DDE-B0EA-9FCFD90B89C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB76E24-469E-4DDE-B0EA-9FCFD90B89C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB76E24-469E-4DDE-B0EA-9FCFD90B89C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
